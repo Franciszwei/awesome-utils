@@ -10,5 +10,6 @@ public class mytest {
     @Test
     public void test01(){
         assertEquals("00:30", DateTimeUtil.formatDuration(30));
+        assertEquals("02:30", DateTimeUtil.formatDuration(150));
     }
 }
