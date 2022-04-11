@@ -14,7 +14,7 @@ on:
 jobs:
   build:
     # 运行在最新版本的ubuntu镜像
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       # 将你的job指向你的文件目录$GITHUB_WORKSPACE，用来运行你的脚本
       - uses: actions/checkout@v2
